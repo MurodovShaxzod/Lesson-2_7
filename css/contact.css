@@ -1,0 +1,365 @@
+body {
+  margin: 0;
+  font-family: 'Livvic', sans-serif;
+}
+
+.header {
+  color: #fff; 
+  background-image: url(/img/about-group-8.png);
+  background-repeat: no-repeat;
+  background-size: 100px ;
+  background-position: 1266px 303px;
+  background-color: #014e56;
+  padding-bottom: 120px;
+}
+
+.main-header {
+  display: flex;
+  align-items: center;
+  padding: 40px;
+  margin-bottom: 50px;
+}
+
+.header ul {
+  list-style: none;
+}
+
+.header li {
+  display: inline;
+  margin-left: 30px;
+}
+
+.main-header ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+.main-header ul li a:hover {
+  color: #f67e7e;
+}
+
+.main-header .contact-btn {
+  border: 2px solid #fff;
+  background-color: #014e56;
+  color: #fff;
+  padding: 10px 30px;
+  border-radius: 50px;
+  font-weight: 600;
+}
+.main-header .contact-btn:hover {
+  background-color: #fff;
+  color: #014e56;
+}
+
+.main-header .contact-btn a {
+  text-decoration: none;
+  color: #fff;
+}
+.main-header .contact-btn:hover a {
+  color: #014e56;
+}
+.contact {
+  display: flex;
+  padding: 40px;
+}
+
+.contact h1 {
+  font-size: 64px;
+  line-height: 100px;
+  font-weight: 700;
+  margin: 0px;
+  padding-bottom: 15px;
+}
+
+.contact h2 {
+  font-size: 32px;
+  line-height: 48px;
+  font-weight: 700;
+  color: #f67e7e;
+  margin: 0px;
+  padding-bottom: 30px;
+}
+
+.contact div.row {
+  margin-bottom: 10px;
+}
+
+.contact p {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 700;
+  padding-left: 20px;
+}
+
+
+input:focus,
+textarea:focus {
+  border-bottom: 2px solid #79C8C7;
+}
+input:focus::placeholder,
+textarea:focus::placeholder {
+  color: #ffffff;
+}
+
+form div {
+  position: relative;
+}
+
+input:invalid ~ span, 
+textarea:invalid ~ span {
+  color: #f67e7e;
+  font-style: italic;
+  font-size: 10px;
+  line-height: 13px;
+  font-weight: 700;
+  position: absolute;
+  top: 45px;
+  left: 10px;
+}
+
+textarea:invalid ~ span {
+  top: 85px;
+}
+
+span {
+  font-size: 0;
+}
+
+input[type="email"],
+input[type="text"],
+textarea {
+  width: 500px;
+  background: none;
+  border: none;
+  border-bottom: 2px solid rgb(255, 255, 255);
+  color: #fff;
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 600;
+  margin-bottom: 24px;
+  padding: 0px 0px 15px 10px;
+  outline: none;
+  cursor: pointer;
+}
+textarea::placeholder,
+::placeholder {
+  color: rgba(255, 255, 255, 0.576);
+}
+
+input[type="submit"] {
+  padding: 9px 32px 11px 32px;
+  color: #004047;
+  border-radius: 24px;
+  border: none;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 600;
+}
+textarea {
+  height: 80px;
+  border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+input:invalid,
+textarea:invalid {
+  border-bottom: 2px solid #f67e7e;
+}
+
+input[type="text"]:invalid::placeholder,
+input[type="email"]:invalid::placeholder,
+textarea:invalid ::placeholder {
+  color: #f67e7e7d;
+}
+
+
+
+footer {
+  background-color: #012F34;
+  color: #fff;
+  padding: 50px;
+}
+
+.foot-myteam {
+  flex-grow: 1;
+}
+
+.foot-myteam ul {
+  padding: 0px;
+}
+
+.foot-myteam ul li {
+  list-style: none;
+  margin-right: 50px;
+}
+
+.foot-myteam ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 600;
+}
+
+.foot-myteam ul li a:hover {
+  color: #f67e7e;
+}
+
+.foot-ul-connection {
+  padding: 0px;
+  margin: 0px;
+  flex-grow: 4;
+}
+
+.foot-ul-connection li {
+  list-style: none;
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 600;
+  opacity: 0.5;
+}
+
+.foot-icon {
+  flex-grow: 1;
+  padding-right: 50px;
+}
+
+.foot-ul-icon {
+  justify-content: right;
+  padding: 0px 0px 50px 0px;
+  margin: 0px;
+}
+
+.foot-ul-icon li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 24px;
+}
+
+.foot-ul-icon li a i:hover {
+  color: #f67e7e;
+}
+
+.foot-ul-icon li {
+  list-style: none;
+  padding-left: 16px;
+}
+
+.foot-p {
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 600;
+  opacity: 0.5;
+  margin: 0px;
+  text-align: end;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 960px) {
+  
+  .container {
+    width: 800px;
+    margin: 0% 2%;
+  }
+
+  p {
+    font-size: 15px;
+    line-height: 28px;
+    font-weight: 600;
+  }
+
+  section.header {
+    color: #fff; 
+    background-image: none;
+    background-color: #014e56;
+    padding: 1px 0px 0px 0px;
+    background-image: url(/img/contact-img-1.png), url(/img/contact-img-2.png);
+    background-repeat: no-repeat, no-repeat;
+    background-size: 100px 200px, 112px 200px;
+    background-position: 0px 170px, 831px 960px;
+  }
+  
+  .header ul {
+    display: flex;
+    align-items: center;
+  }
+
+  .main-header {
+    align-items: center;
+    padding: 0;
+    margin: 40px 40px 90px 40px;
+
+  }
+
+
+  .contact {
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    padding: 0px 0px 112px 0px;
+
+  }
+
+  .contact h1 {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 56px;
+ 
+  }
+
+  .contact h3 {
+    padding-bottom: 24px;
+  }
+
+  .contact form {
+    padding-top: 64px;
+  }
+
+  .contact .submit {
+    display: grid;
+    justify-content: left;
+  }
+
+
+
+  .foot-myteam ul {
+    padding: 0;
+  }
+
+  .foot-myteam img {
+    margin-bottom: 53px;
+    width: 96px;
+    height: 24px;
+  }
+
+  footer  {
+    position: relative;
+    padding-top: 60px;
+    padding-bottom: 100px;
+  }
+
+  .foot-ul-icon {
+    position: absolute;
+    top: 190px;
+    left: 50px;
+  }
+  .foot-myteam ul li {
+    margin-right: 30px;
+  }
+
+  .foot-ul-connection {
+    position: absolute;
+    top: 60px;
+    left: 645px;
+    text-align: end;
+  }
+
+  .foot-p-text {
+    position: absolute;
+    top: 190px;
+    left: 630px;
+  }
+
+}
